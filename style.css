@@ -1,0 +1,567 @@
+body {
+    background-color: #e0f7e9;
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+
+
+.menu {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: 0.15s;
+
+
+}
+.menu_bar {
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.menu:hover {
+    color: rgb(0, 255, 38);
+    margin-left: 10px;
+    margin-right: 20px;
+    text-decoration: underline;
+}
+
+.title_home {
+    background-image: url(images/background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 330px;  
+    margin: 0px;
+    margin-bottom: 30px;  
+    padding-top: 10px;
+}
+
+.title_text {
+    color: white;
+    font-size: 90px;
+    text-align: center;
+    position: relative;
+    top: 155px;
+    letter-spacing: 10px;
+}
+.comunity {
+    margin-left: 20px;
+}
+h2.comunity {
+    font-size: 28px;
+    color: #4a4a4a;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+p.comunity {
+    color: #4a4a4a;
+    font-size: 22px;
+
+}
+img.comunity {
+    border-width: 3px;
+    border-color: rgb(0, 255, 38);
+    border-style: solid;
+    border-radius: 10px;
+    width: 400px;
+    float: right;
+}
+.maintenance {
+    margin-left: 20px;
+}
+h2.maintenance {
+    font-size: 28px;
+    color: #4a4a4a;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+p.maintenance {
+    color: #4a4a4a;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+
+}
+img.maintenance {
+    border-width: 3px;
+    border-color: rgb(0, 255, 38);
+    border-style: solid;
+    border-radius: 10px;
+    width: 400px;
+    float: left;
+    margin-right: 20px;
+}
+h2.link_title {
+    font-size: 28px;
+    color: #4a4a4a;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+p.link_title {
+    color: #4a4a4a;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.page_links_container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.page_link {
+    position: relative;
+    width: 20%;
+    border-style: none;
+    border-radius: 15px;
+}
+.thumbnail {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.overlay {
+    position: absolute;
+    display: flex;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: white;
+    background-color: black;
+    opacity: 0;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+.page_link:hover .overlay {
+    opacity: 0.7;
+    border-style: solid;
+    border-width: 5px;
+    color: rgb(0, 255, 38);
+
+}
+
+
+
+
+.brakes_title {
+    background-image: url(images/breaks\ background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 430px;  
+    margin: 0px;
+    margin-bottom: 30px;  
+    padding-top: 10px;
+}
+
+.brakes_title_text {
+    color: white;
+    font-size: 100px;
+    letter-spacing: 10px;
+    margin: 0px;
+    position: relative;
+    top: 130px;
+    left: 100px;
+    -webkit-text-stroke-color: rgb(207, 207, 1);
+    -webkit-text-stroke-width: 2px;
+
+
+}
+
+.menu_brakes {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: 0.15s;
+
+
+}
+.menu_bar_brakes {
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.menu_brakes:hover {
+    color: rgb(207, 207, 1);
+    margin-left: 10px;
+    margin-right: 20px;
+    text-decoration: underline;
+}
+
+h2.brakes_function {
+    font-size: 32px;
+    margin-left: 20px;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+
+img.brakes_function {
+    width: 300px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(207, 207, 1);
+    border-radius: 15px;
+    float: right;
+    margin-left: 20px;
+}
+
+p.brakes_function {
+    font-size: 22px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+h2.brakes_types {
+    font-size: 32px;
+    margin-left: 20px;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+img.brakes_types {
+    width: 300px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(207, 207, 1);
+    border-radius: 15px;
+    float: left;
+    margin-right: 20px;
+}
+p.brakes_types {
+    font-size: 22px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+h3.brake_parts {
+    font-size: 24px;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+img.brake_parts {
+    width: 550px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(207, 207, 1);
+    border-radius: 15px;
+    float: right;
+    margin-left: 20px;
+}
+
+p.brake_parts {
+    font-size: 22px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+h3.brake_maintenance {
+    font-size: 24px;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+p.brake_maintenance {
+    font-size: 22px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.menu_pedals {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: 0.15s;
+
+
+}
+.menu_bar_pedals {
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.menu_pedals:hover {
+    color: crimson;
+    margin-left: 10px;
+    margin-right: 20px;
+    text-decoration: underline;
+}
+
+
+
+.pedals_title {
+    background-image: url(images/pedals_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 330px;  
+    margin: 0px;
+    margin-bottom: 30px;  
+    padding-top: 10px;
+
+    
+}
+h1.pedals_title_text {
+    font-size: 120px;
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    -webkit-text-stroke-color: crimson;
+    -webkit-text-stroke-width: 2px;
+}
+
+h2.pedal_types {
+    font-size: 32px;
+    margin-left: 20px;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+img.pedal_type {
+    width: 500px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: crimson;
+    border-radius: 15px;
+    float: right;
+    margin-left: 20px;
+}
+p.pedal_types {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+h2.pedals {
+    font-size: 32px;
+    margin-left: 20px;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+img.pedals {
+    width: 500px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: crimson;
+    border-radius: 15px;
+    float: right;
+    margin-left: 20px;
+}
+p.pedals {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+.menu_handlebar {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: 0.15s;
+
+
+}
+.menu_bar_handlebar {
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.menu_handlebar:hover {
+    color: rgb(34, 76, 225);
+    margin-left: 10px;
+    margin-right: 20px;
+    text-decoration: underline;
+}
+
+
+
+.handlebar_title {
+    background-image: url(images/handlebarsbackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 330px;  
+    margin: 0px;
+    margin-bottom: 30px;  
+    padding-top: 10px;
+
+    
+}
+h1.handlebar_title_text {
+    font-size: 120px;
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 300px;
+    -webkit-text-stroke-color: rgb(34, 76, 225);
+    -webkit-text-stroke-width: 2px;
+}
+
+
+
+
+h2.handlebar_types {
+    font-size: 32px;
+    margin-left: 20px;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+
+p.handlebar_types {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+
+h2.bars {
+    font-size: 32px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+img.bars {
+    width: 550px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(34, 76, 225);
+    border-radius: 15px;
+    float: right;
+    margin-left: 20px;
+}
+p.bars {
+    font-size: 22px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+.menu_gears {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: 0.15s;
+
+
+}
+.menu_bar_gears {
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.menu_gears:hover {
+    color: rgb(69, 70, 74);
+    margin-left: 10px;
+    margin-right: 20px;
+    text-decoration: underline;
+}
+
+
+
+.gears_title {
+    background-image: url(images/gearsbackgound.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 330px;  
+    margin: 0px;
+    margin-bottom: 30px;  
+    padding-top: 10px;
+
+    
+}
+h1.gears_title_text {
+    font-size: 120px;
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 300px;
+    -webkit-text-stroke-color: rgb(69, 70, 74);
+    -webkit-text-stroke-width: 2px;
+}
+
+
+
+
+h2.gear_styles {
+    font-size: 32px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+
+p.gear_styles {
+    font-size: 22px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+img.gears {
+    width: 550px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(34, 76, 225);
+    border-radius: 15px;
+    float: right;
+    margin-left: 20px;
+}
+h2.gears {
+    font-size: 32px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+
+p.gears {
+    font-size: 22px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
